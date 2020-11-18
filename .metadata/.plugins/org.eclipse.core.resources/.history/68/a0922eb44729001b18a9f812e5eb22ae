@@ -1,0 +1,12 @@
+server.port=8080
+# spring.mvc.view.prefix=/WEB-INF/views/
+# spring.mvc.view.suffix=.jsp
+
+# thymeleaf 에서 가장많이 사용하는 옵션들 
+# 표준 HTML5를 사용해서 만듬 
+spring.thymeleaf.prefix=classpath:templates/
+spring.thymeleaf.check-template-location=true
+spring.thymeleaf.suffix=.html
+spring.thymeleaf.mode=HTML5
+spring.thymeleaf.cache=false  
+spring.thymeleaf.template-resolver-order=0

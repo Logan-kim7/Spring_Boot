@@ -1,0 +1,6 @@
+INSERT INTO tbl_bbs(b_writer, b_date_time, b_content)
+VALUES('홍길동','2020-11-18','게시판 만들기',0);
+INSERT INTO tbl_bbs(b_writer, b_date_time, b_content)
+VALUES('이몽룡','2020-11-18','게시판 만들기',0);
+INSERT INTO tbl_bbs(b_writer, b_date_time, b_content)
+VALUES('임꺽정','2020-11-18','게시판 만들기',0);

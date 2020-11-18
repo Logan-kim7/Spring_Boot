@@ -1,0 +1,27 @@
+package com.biz.bbs.domain;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+public class BBsVO {
+	
+	/**
+	 *  JAP 기능을 사용하여 자동 table생성을 하도록 설정할것
+	 *  
+	 * 
+	 */
+	
+	
+	private int b_id;
+	private String b_write;
+	private String b_date_time;
+	private String b_subject;
+	private String b_content;
+	private String b_count;
+}
